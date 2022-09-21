@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from "react-router-dom"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='trivia-challenge'>
+    <Router basename='/trivia-challenge'>
       <App />
     </Router>
   </React.StrictMode>
